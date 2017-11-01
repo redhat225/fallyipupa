@@ -11,7 +11,7 @@
       }
 </style>
 
-<div class="navbar-fixed">
+<div class="navbar-fixed" id="wrapper-navbar">
   <nav class="mg_sec_background_3" id="navbar">
     <div class="nav-wrapper">
 
@@ -64,7 +64,7 @@
               <i class="ion-social-instagram-outline social-icon-element right small white-text"></i>
             </a>
          </li>
-        <li class="social-icons-item mg_sec_color_5 tooltipped" data-tooltip="Twiter" data-delay="5s" data-position="left">
+        <li class="social-icons-item mg_sec_color_5 tooltipped" data-tooltip="Twitter" data-delay="5s" data-position="left">
            <a href="https://twitter.com/fallyipupa01">
              <i class="ion-social-twitter social-icon-element right small white-text"></i>
            </a>
@@ -128,7 +128,7 @@
       </ul>
 
 
-    <div class="fixed-action-btn navigation-button">
+    <div class="fixed-action-btn navigation-button" ng-click="mainctrl.trigger_scroll()">
       <a class="btn-floating btn-large mg_sec_background_3">
         <i class="small ion-android-navigate mg_prim_color brighten-item"></i>
       </a>

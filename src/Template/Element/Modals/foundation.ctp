@@ -20,10 +20,10 @@
 <div id="foundationModal" class="modal">
     <div class="modal-content mg-padding-0">
 		<div class="row mg-margin-0 white">
-			<div class="col l7 m6 s12 hide-on-small-only mg-padding-0" id="foundation-pic" style="background:url('/img/assets/wallpaper/cover_2.jpg') 70%;">	
+			<div class="col l7 m6 s12 hide-on-med-and-down mg-padding-0" id="foundation-pic" style="background:url('/img/assets/wallpaper/cover_2.jpg') 70%;">	
 						<div style="margin-top: 50%;margin-bottom: 50%;">&nbsp;</div>
 			</div>
-			<div class="col l5 m6 s12 center" style="background:url('/img/assets/wallpaper/fif_2.jpg') 74% 62%">
+			<div class="col l5 m12 s12 center" style="background:url('/img/assets/wallpaper/fif_2.jpg') 74% 62%">
 					<h5 class="uppercase mg-padding-top-15 bold mg-chub red-text">The foundation</h5>
 					<div class="divider"></div>
 					<h6 class="mg_sec_color_3 mg-padding-top mg-size-17 left-align mg-padding-top-20 mg-padding-top-20">

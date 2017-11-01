@@ -1,5 +1,5 @@
 angular.module('fally.controllers',[])
-	.controller('MainCtrl',['$scope','NewsletterService','BannerService', function($scope,NewsletterService,BannerService){
+	.controller('MainCtrl',['$scope','NewsletterService','BannerService','$location','$anchorScroll', function($scope,NewsletterService,BannerService,$location,$anchorScroll){
 		var self = this;
 		//checkcookie banner
 		BannerService.check().then(function(response){
@@ -56,6 +56,10 @@ angular.module('fally.controllers',[])
             });     
         };
 
+        self.trigger_scroll = function(){
+            $location.hash('wrapper-navbar');
+            $anchorScroll();
+        };
 
 
 	}])

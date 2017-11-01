@@ -6,10 +6,10 @@
 <div id="musicModal" class="modal">
     <div class="modal-content mg-padding-0">
 		<div class="row mg-margin-0">
-			<div class="col l7 m6 s12 hide-on-small-only mg-padding-0 " id="album" style="background:url('/img/assets/wallpaper/new_album.jpg') 10%;">	
+			<div class="col l7 m6 s12 hide-on-med-and-down mg-padding-0 " id="album" style="background:url('/img/assets/wallpaper/new_album.jpg') 10%;">	
 						<div style="margin-top: 50%;margin-bottom: 50%;">&nbsp;</div>
 			</div>
-			<div class="col l5 m6 s12 center mg-padding-0" id="tour-dates">
+			<div class="col l5 m12 s12 center mg-padding-0" id="tour-dates">
 					<h5 class="uppercase mg_sec_color_4 mg-padding-top-15 bold mg-chub">MUSIC</h5>
 					<div class="divider"></div>
 					<p class="bold left-align mg-padding-10">

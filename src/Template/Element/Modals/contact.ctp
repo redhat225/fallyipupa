@@ -6,10 +6,10 @@
 <div id="contactModal" class="modal">
     <div class="modal-content mg-padding-0">
 		<div class="row mg-margin-0 white">
-			<div class="col l7 m7 s12 hide-on-small-only mg-padding-0 white" id="contact-pic" style="background:url('/img/assets/wallpaper/img_3.jpg') 77%;">
+			<div class="col l7 m7 s12 hide-on-med-and-down mg-padding-0 white" id="contact-pic" style="background:url('/img/assets/wallpaper/img_3.jpg') 77%;">
 						<div style="margin-top: 50%;margin-bottom: 50%;">&nbsp;</div>
 			</div>
-			<div class="col l5 m5 s12 center">
+			<div class="col l5 m12 s12 center">
 					<h5 class="uppercase mg_sec_color_4 mg-padding-top-15 bold mg-chub">Contact</h5>
 					<div class="divider"></div>
 

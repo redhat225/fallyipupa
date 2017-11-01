@@ -6,7 +6,7 @@
 <div id="newsletterModal" class="modal">
     <div class="modal-content mg-padding-0">
 		<div class="row mg-margin-0 mg_sec_background_1">
-			<div class="col l5 m5 s12 hide-on-small-only mg-padding-0 mg_sec_background_1">
+			<div class="col l5 m5 s12 hide-on-med-and-down mg-padding-0 mg_sec_background_1">
 				<div class="container">
 					<div class="container">
 						<?= $this->Html->image('assets/logo/website_logo_3.png',['style'=>'display:block;width:100%;margin-top:50%;']) ?>	
@@ -15,7 +15,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col l7 m7 s12 center" style="background: url('/img/assets/wallpaper/images.jpg') #f4f4f4 120% -14% no-repeat;">
+			<div class="col l7 m12 s12 center" style="background: url('/img/assets/wallpaper/images.jpg') #f4f4f4 120% -14% no-repeat;">
 				<h5 class="uppercase mg_sec_color_4 mg-padding-top-15 bold mg-chub" style="clear:both;">Follow Me</h5>
 				<div class="divider"></div>
 

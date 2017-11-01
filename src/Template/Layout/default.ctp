@@ -96,18 +96,26 @@ $cakeDescription = 'Fally Ipupa Official: Welcome';
       <?= $this->fetch('script') ?>
       <script>
         $(document).ready(function(){
-          var scene = document.getElementById('scene');
-          var parallaxInstance = new Parallax(scene);
-        });
+          var availWidth = window.screen.availWidth;
 
+          if(availWidth>993)
+          {
+             var scene = document.getElementById('scene');
+             var parallaxInstance = new Parallax(scene);
+          }
 
-        var sound = new Howl({
+          var sound = new Howl({
               src:['https://s3.eu-west-2.amazonaws.com/fallyipupa/jukebox/Fally+Ipupa+-+Posa.mp3'],
               volume:0.5,
               loop:false,
               html5 :true,
               autoplay:true 
             });
+
+        });
+
+
+
       </script>
 </body>
 </html>
