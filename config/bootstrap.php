@@ -191,8 +191,8 @@ Type::build('timestamp')
 // Custom configuration files 
 
 Configure::write('awsCredentials',[
-    'key'=>'AKIAIBMFDHIMPPQA5F4A',
-    'secret' => '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'
+    'key'=>'AKIAIKZHT7YURL5HUO5A',
+    'secret' => '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'
 ]);
 
 /*
