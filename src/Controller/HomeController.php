@@ -86,6 +86,7 @@ class HomeController extends AppController
 
     public function wellcome(){
         if($this->request->is('get')){
+            sleep(5);
             try{
                 $config = [
                     'version' => 'latest',
