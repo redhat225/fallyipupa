@@ -69,13 +69,12 @@ angular.module('fally.controllers',[])
 		// console.log(checkCookie);
 
 		self.s3  = S3Services;
-		self.prefix_index = 0;
-		self.prefix = 'pool_';
+		self.prefix_index = 1;
 		self.is_rest_pics = true;
 
 		self.flushGallery = function(){
 			self.prefix_index = self.prefix_index+1;
-			var request_prefix = self.prefix+self.prefix_index+'/';
+			var request_prefix = self.prefix_index;
 			    S3Services.loadMore(request_prefix).then(function(response){
 				$('#gallery').append(response.data);
 				$('#gallery').justifiedGallery('norewind');
@@ -86,7 +85,6 @@ angular.module('fally.controllers',[])
 				});
 			}, function(errResponse){
 		        self.is_rest_pics = false;
-		        console.log('no more pics!!!');
 			});
 		};
 

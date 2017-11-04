@@ -31,13 +31,12 @@
 	}
 
 </style>
+
 <div class="row mg-padding-top-0 mg-margin-0 mg_prim_background" id="gallery" style="background: url('/img/assets/')">
-	    <?php foreach($contents as $content): ?>
-	    	 <?php if($content['Size'] > 0): ?>
-			   <a class="grow strip brannan brighten" data-strip-group="mygroup" data-rel="lightcase:slideshow" href="https://s3.eu-west-2.amazonaws.com/fallyipupa/<?= $content['Key'] ?>">
-			        <img src="https://s3.eu-west-2.amazonaws.com/fallyipupa/<?= $content['Key'] ?>"/>
+	    <?php foreach($photos->photoset->photo as $photo): ?>
+			   <a class="grow strip brannan brighten" data-strip-group="mygroup" data-rel="lightcase:slideshow" href="https://farm<?= $photo->farm ?>.staticflickr.com/<?= $photo->server.'/'.$photo->id.'_'.$photo->secret.'.jpg' ?>">
+			        <img src="https://farm<?= $photo->farm ?>.staticflickr.com/<?= $photo->server.'/'.$photo->id.'_'.$photo->secret.'.jpg' ?>"/>
 			    </a>
-			<?php endif; ?>
 	   <?php endforeach; ?>
 </div>
 
@@ -45,11 +44,8 @@
 	$(document).ready(function(){
 		$('#gallery').justifiedGallery({
 		    rowHeight : 250,
-		    lastRow: 'justify',
 		    cssAnimation:true,
 		    margins:5
-		}).on('jg.complete', function(){
-
 		});
 
 		$('#gallery a', this).hover(function(){
