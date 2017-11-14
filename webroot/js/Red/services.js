@@ -1,15 +1,4 @@
 angular.module('fally.services',[])
-   .factory('PaceService',['$http','$q', function($http,$q){
-   	 return{
-   	 	test: function(){
-   	 		return $http.get('/home/pace').then(function(response){
-   	 			return response;
-   	 		}, function(errResponse){
-   	 			return $q.reject(errResponse);
-   	 		});
-   	 	}
-   	 }
-   }])
    .factory('S3Services',['$http','$q', function($http,$q){
       return{
          loadMore: function(auto_prefix){

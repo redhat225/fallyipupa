@@ -18,10 +18,9 @@
 <head>
     <?= $this->Html->charset() ?>
     <title>
-        <?= $this->fetch('title') ?>
+        Page introuvable
     </title>
-    <?= $this->Html->meta('icon') ?>
-
+    <?= $this->Html->meta('favicon.png','/img/favicon.png',['type'=>'icon']) ?>  
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('cake.css') ?>
 
@@ -29,18 +28,15 @@
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 </head>
-<body>
-    <div id="container">
-        <div id="header">
-            <h1><?= __('Error') ?></h1>
-        </div>
+<body style="background: #000;">
+     <?= $this->Flash->render() ?>
+    <div id="container" style="text-align:center;">
+        <?= $this->Html->image('assets/logo/error_logo.png',['width'=>'350px']) ?>
         <div id="content">
-            <?= $this->Flash->render() ?>
-
             <?= $this->fetch('content') ?>
         </div>
         <div id="footer">
-            <?= $this->Html->link(__('Back'), 'javascript:history.back()') ?>
+            <?= $this->Html->link(__('Retour'), 'javascript:history.back()',['style'=>'color:#9c38a6;']) ?>
         </div>
     </div>
 </body>

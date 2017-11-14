@@ -1,4 +1,4 @@
-<?php $this->layout="blank"; ?>
+<!-- <?php $this->layout="blank"; ?>
  <style>
 	.grow img {
 	  height: 100% !important;
@@ -29,7 +29,6 @@
 	.brighten  data-rel="lightcase:slideshow"img:hover {
 	  -webkit-filter: brightness(120%);
 	}
-
 </style>
 
 <div class="row mg-padding-top-0 mg-margin-0 mg_prim_background" id="gallery" style="background: url('/img/assets/')">
@@ -54,4 +53,4 @@
 				$(this).addClass('brannan');
 			});
 	});
-</script>
+</script> -->

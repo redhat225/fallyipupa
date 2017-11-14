@@ -10,33 +10,32 @@
 						<div style="margin-top: 50%;margin-bottom: 50%;">&nbsp;</div>
 			</div>
 			<div class="col l5 m12 s12 center">
-					<h5 class="uppercase mg_sec_color_4 mg-padding-top-15 bold mg-chub">Contact</h5>
+				<section  itemscope itemtype="http://schema.org/Person">
+					<h1 class="uppercase mg_sec_color_4 mg-padding-top-15 bold mg-chub mg-size-22 mg-margin-bottom-10">Contact</h1>
 					<div class="divider"></div>
-
-					<h6 class="mg-size-15 mg-margin-top-0 mg_prim_color mg-padding-top-15 mg-chub bold">Made With ❤️ by RIEHL EMMANUEL
-					</h6>
-					<h6 class="mg_sec_color_4 mg-padding-top mg-size-17 uppercase mg-chub bold">FullStack Developer.</h6> 
+					<h2 itemprop="brand" class="mg-size-15 mg-margin-top-0 mg_prim_color mg-padding-top-15 mg-chub bold mg-margin-bottom-10">Made With ❤️ by RIEHL EMMANUEL
+					</h2>
+					<h3 itemprop="jobTitle" class="mg_sec_color_4 mg-padding-top mg-size-17 uppercase mg-chub bold mg-margin-bottom-5">FullStack Developer.</h3> 
 					<!-- Contacts -->
-					<a href="https://github.com/redhat225" target="_blank">
-						<i class="mg-margin-right-10 ion-social-github small mg_prim_color mg-margin-right-0 "></i>
-					</a>
-				    
-				    <a href="https://www.facebook.com/riehlemmanuel" target="_blank">
-	                    <i class="mg-margin-right-10 ion-social-facebook small mg_prim_color mg-margin-right-0"></i>
-				    </a>
-					
-					<a href="https://twitter.com/EmmanuelRiehl" target='_blank'>
-	                   <i class="mg-margin-right-10 ion-social-twitter small small mg_prim_color mg-margin-right-0"></i>
-					</a>
-					<!-- Email me -->
-					<h6 class=" mg-margin-top-0  mg-padding-top-0">
-	                   <i class="mg-margin-right-10 ion-ios-email small small mg_prim_color mg-margin-right-0"></i>
-				 		<span class="mg-size-15 mg_prim_color bold">riehlemm@gmail.com</span>
-					</h6>
-					<h6 class=" mg-margin-top-0  mg-padding-top-0 mg-margin-right-45 mg-margin-bottom-100">
-	                   <i class="mg-margin-right-10 ion-social-whatsapp small small mg_prim_color mg-margin-right-0"></i>
-				 		<span class="mg-size-15 mg_prim_color bold">+225 87678593</span>
-					</h6> 
+					<p class="social-icons mg-margin-top-0">
+						<a href="https://github.com/redhat225" target="_blank" class="hvr-bob">
+							<i class="mg-margin-right-10 ion-social-github small mg_prim_color mg-margin-right-0 "></i>
+						</a>
+					    
+					    <a href="https://www.facebook.com/riehlemmanuel" target="_blank" class="hvr-bob">
+		                    <i class="mg-margin-right-10 ion-social-facebook small mg_prim_color mg-margin-right-0"></i>
+					    </a>
+						
+						<a href="https://twitter.com/EmmanuelRiehl" target='_blank' class="hvr-bob">
+		                   <i class="mg-margin-right-10 ion-social-twitter small small mg_prim_color mg-margin-right-0"></i>
+						</a>
+
+						<a href="https://plus.google.com/u/0/104554725314153200612" target='_blank' class="hvr-bob">
+		                   <i class="mg-margin-right-10 ion-social-googleplus small small mg_prim_color mg-margin-right-0"></i>
+						</a>	
+						
+					</p>
+				</section>
 			</div>
 		</div>
     </div>

@@ -45,8 +45,8 @@ Router::defaultRouteClass(DashedRoute::class);
 
 Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/', ['controller'=>'Home', 'action'=>'index']);
-    $routes->connect('/wellcome', ['controller'=>'Home', 'action'=>'wellcome']);
-    $routes->fallbacks(DashedRoute::class);
+    $routes->connect('/home/bannerState', ['controller'=>'Home', 'action'=>'bannerState']);
+    $routes->connect('/home/load-more', ['controller'=>'Home', 'action'=>'loadMore']);
 });
 
 Router::scope('/newsletter', function (RouteBuilder $routes) {

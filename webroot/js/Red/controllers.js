@@ -63,11 +63,8 @@ angular.module('fally.controllers',[])
 
 
 	}])
-	.controller('WellcomeCtrl',['$scope','PaceService','$rootScope','S3Services', function($scope,PaceService,$rootScope,S3Services){
+	.controller('WellcomeCtrl',['$scope','$rootScope','S3Services', function($scope,$rootScope,S3Services){
 		var self = this;
-
-		// console.log(checkCookie);
-
 		self.s3  = S3Services;
 		self.prefix_index = 1;
 		self.is_rest_pics = true;

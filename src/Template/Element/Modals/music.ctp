@@ -7,22 +7,22 @@
     <div class="modal-content mg-padding-0">
 		<div class="row mg-margin-0">
 			<div class="col l7 m6 s12 hide-on-med-and-down mg-padding-0 " id="album" style="background:url('/img/assets/wallpaper/new_album.jpg') 10%;">	
-						<div style="margin-top: 50%;margin-bottom: 50%;">&nbsp;</div>
+				<div style="margin-top: 50%;margin-bottom: 50%;">&nbsp;</div>
 			</div>
 			<div class="col l5 m12 s12 center mg-padding-0" id="tour-dates">
-					<h5 class="uppercase mg_sec_color_4 mg-padding-top-15 bold mg-chub">MUSIC</h5>
-					<div class="divider"></div>
-					<p class="bold left-align mg-padding-10">
-					  Between two guitar solos, parade of his legendary pairs of black glasses, the heir of Papa Wemba, Fally Ipupa, presented Tokooos, his new album, a turning point in his musical career with many collaborations from iconic Wizkid to titans like Booba, Fally Ipupa is reaching climax with a brand new Tokoos Music style.
-					</p>
-
-					<a href="https://fallyipupa.lnk.to/tokooosWW" target="blank" class="btn mg_prim_background mg-chub mg-margin-bottom-30">
-						<i class="ion-headphone"></i> Listen Tokooos
-					</a>
-
-
+				<section>
+					<article>
+						<h1 class="uppercase mg_sec_color_4 mg-padding-top-15 bold mg-chub mg-size-22 mg-margin-bottom-10">Musique</h1>
+						<div class="divider"></div>
+						<p class="bold center mg-padding-left-20 mg-padding-right-20">
+							Entre deux solos de guitare, barré de ses légendaires paires de lunettes noires, l'héritier de <strong class="mg-weight-600"> Papa Wemba </strong>, Fally Ipupa, présente Tokooos, son nouvel album, tournant dans sa carrière musicale avec de nombreuses collaborations fort <strong class="mg-weight-600">Wizkid</strong> aux titans comme Booba, Fally Ipupa atteint son paroxysme avec un tout nouveau style: la <strong class="mg-weight-600">Tokooos Music</strong> dont-il en est le roi incontesté.					
+							<a href="https://fallyipupa.lnk.to/tokooosWW" target="blank" class="mg-width-100-perc btn mg_prim_background mg-chub mg-margin-top-20">
+								<i class="ion-headphone"></i> Ecouter <strong class="mg-weight-600">Tokooos</strong>
+							</a>
+						</p>
+					</article>
+				</section>
 			</div> 	
-
 		</div>
     </div>
 </div>

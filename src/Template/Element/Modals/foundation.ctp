@@ -24,22 +24,17 @@
 						<div style="margin-top: 50%;margin-bottom: 50%;">&nbsp;</div>
 			</div>
 			<div class="col l5 m12 s12 center" style="background:url('/img/assets/wallpaper/fif_2.jpg') 74% 62%">
-					<h5 class="uppercase mg-padding-top-15 bold mg-chub red-text">The foundation</h5>
-					<div class="divider"></div>
-					<h6 class="mg_sec_color_3 mg-padding-top mg-size-17 left-align mg-padding-top-20 mg-padding-top-20">
-						Fally Ipupa Foundation (FIF) aims to help the different segments of the population living in need. IFF has already conducted its very first action. For example, she has rehabilitated the buildings of the St Jean-Baptiste school, where the artist did a part of her studies and gave her 100 benches and desks.
-						IFF funds will be raised during concerts and other socio-cultural events it plans to hold.
-					</h6>
-
-					<div class="col l6 m12 s12 mg-padding-0 mg-margin-top-10">
-				      <a href="https://foundation.riehl-emmanuel.xyz" target="_blank" class="mg-chub mg-size-18 btn mg-height-49 visit-fally-btn mg-padding-top-5 bold mg-width-100-perc">Visit</a>
-					</div>
-
-					<div class="col l6 m12 s12 mg-padding-0 mg-margin-top-10 mg-margin-bottom-30">
- 						 <a href="https://foundation.riehl-emmanuel.xyz" target="_blank" class="mg-chub mg-size-18 btn mg-height-49 red white-text mg-padding-top-5 bold mg-width-100-perc">Donate</a>
-					</div>
-				    
-
+				  <section>
+				  	<article>
+						<h1 class="uppercase red-text mg-padding-top-15 bold mg-chub mg-size-22 mg-margin-bottom-10">La Fondation</h1>
+						<div class="divider"></div>
+						<p class="center mg_sec_color_3 left-align mg-padding-top-0 mg-padding-left-20 mg-padding-right-20">
+							<strong>Fally Ipupa Foundation</strong> (FIF) vise à aider les différents segments de la population vivant dans le besoin. FIF a déjà mené sa toute première action. Par exemple, elle a réhabilité les bâtiments de l'école <strong>St Jean-Baptiste</strong> , où l'artiste a fait une partie de ses études et lui a donné 100 bancs et bureaux.
+							Les fonds de FIF seront collectés pendant les concerts et autres événements socioculturels prévus.
+							<a href="https://fr-fr.facebook.com/fallyipupafoundation" target="_blank" class="mg-margin-top-10 mg-margin-bottom-10 mg-chub mg-size-18 btn visit-fally-btn bold mg-width-100-perc">Fally Ipupa Fondation</a>
+						</p>
+				  	</article>
+				  </section>
 			</div>
 		</div>
     </div>

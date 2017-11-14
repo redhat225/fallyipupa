@@ -44,8 +44,6 @@ class HomeController extends AppController
 
     public function beforeFilter(Event $event){
         parent::initialize($event);
-        if(!$this->request->is('ajax'))
-        {
 
             if(!$this->Cookie->check('banner'))
             {
@@ -58,9 +56,6 @@ class HomeController extends AppController
             }
             else
                 $this->Cookie->write('banner','done');
-
-            $this->request->params['action'] = 'index';
-        }
 
 
     }
@@ -80,14 +75,7 @@ class HomeController extends AppController
         }
     }
 
-
     public function index(){
-    }
-
-    public function wellcome(){
-        if($this->request->is('get')){
-
-            //getting first photoset id
             $this->loadModel('Albums');
             $album = $this->Albums->find()
                                   ->where(['id'=>1])
@@ -96,14 +84,13 @@ class HomeController extends AppController
             $photos = $this->getPhotos($album->album_uuid);
             if($photos)
             {
+                // debug($photos);
+                // die();
                $this->set(compact('photos'));
                $this->set('_serialize',['photos']); 
             }
             else
                throw new Exception\NotFoundException(__('Not Found'));
-
-
-        }
     }
 
     private function getPhotos($album_uuid){

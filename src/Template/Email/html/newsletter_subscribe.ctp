@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>Fally Ipupa: Official</title>
+  <title>Fally Ipupa Newsletter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
@@ -20,13 +20,13 @@
 			<table cellspacing="0" cellpadding="0" border="0" width="100%">
 				<tr>
 					<td align="left" style="font-size:15px;padding-top:0px;padding-left:90px;font-family: Helvetica, Arial, sans-serif;color:#231F20; line-height: 20px;">
-						    Your registration to news feed about <b>Fally Ipupa</b> has been done! You'll be noticed on every posts about Fally Ipupa. Its free and no hidden fees. Tokooos...</b>
+							Votre inscription au fil de nouvelles sur <b> Fally Ipupa </b> a été faite! Vous serez informé sur tous les articles concernant Fally Ipupa. C'est gratuit et pas de frais cachés! Tokooos ... </b>
 					</td>
 				</tr>
 				<tr>
 					<td align="center" style="padding-top:20px;font-size: 11px;font-family: Helvetica, Arial, sans-serif;color:#807d7d;line-height: 17px;">
-						I want to <a href="https://fallyipupa.riehl-emmanuel.xyz/newsletter/unsubscribe/<?= $newsletter['token'] ?>">unsubscribe</a> this service. 
-						more on <a href="https://fallyipupa.riehl-emmanuel.xyz" target="_blank">Fally Ipupa</a> 
+						Je veux <a href="https://fallyipupa.riehl-emmanuel.xyz/newsletter/unsubscribe/<?= $newsletter['token'] ?>">me désinscrire </a> de ce service. 
+						plus sur <a href="https://fallyipupa.riehl-emmanuel.xyz" target="_blank">Fally Ipupa</a> 
 					</td>
 				</tr>
 			</table>
@@ -48,7 +48,7 @@
 							<tr>
 								<td align="right">
 									<a href="https://www.facebook.com/FallyIpupaOfficial/" target="_blank">
-		  							  <img src="https://fallyipupa.riehl-emmanuel.xyz/img/newsletter/subscribe/facebook.png" alt="Tabernacle Official Logo" width="100%" style="display:block;" title="tabernacle_alliance_gloire_facebook"/>
+		  							  <img src="https://fallyipupa.riehl-emmanuel.xyz/img/newsletter/subscribe/facebook.png" alt="Fally Ipupa Website facebook logo" width="100%" style="display:block;" title="Fally Ipupa Website logo"/>
 									</a>
 								</td>
 							</tr>
