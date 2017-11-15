@@ -100,9 +100,9 @@
             <a rel="nofollow"  class="mg-chub mg-size-17 mg-padding-left-65 white-text">Newsletter</a>
           </li> 
 
-          <li ng-click="mainctrl.show_foundation_modal() button_modal_trigger" trigger-id="#foundation-pic" class="mg_sec_background_3" style="border-top: 3px solid #ff00ff"><a rel="nofollow" class="mg-chub mg-size-17 mg-padding-left-65 white-text">Fondation</a></li>
+          <li ng-click="mainctrl.show_foundation_modal()" trigger-id="#foundation-pic" class="mg_sec_background_3 button_modal_trigger" style="border-top: 3px solid #ff00ff"><a rel="nofollow" class="mg-chub mg-size-17 mg-padding-left-65 white-text">Fondation</a></li>
 
-          <li ng-click="mainctrl.show_contact_modal() button_modal_trigger" trigger-id="#contact-pic" class="mg_sec_background_3" style="border-top: 3px solid #ff00ff">
+          <li ng-click="mainctrl.show_contact_modal()" trigger-id="#contact-pic" class="mg_sec_background_3 button_modal_trigger" style="border-top: 3px solid #ff00ff">
             <a rel="nofollow" class="mg-chub mg-size-17 mg-padding-left-65 white-text">Contact</a>
           </li> 
 
