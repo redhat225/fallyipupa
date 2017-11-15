@@ -7,7 +7,8 @@
     <meta name="description" content="Tout savoir sur Fally Ipupa - Biographie - Images - Musique - Event - Tournées - Fondation - être alerté en temps réels des dernières actualités sur Fally Ipupa - Le roi de la Tokooos Music" />  
     <meta name="keywords" content="Fally Ipupa, music, tokos music, artist, singer, chanteur, chanson, musique, congo, kinshasa, koffi olomidé, papa wemba, tour, hustler, dicaprio, la merveille, eloko oyo, fally ipupa eloko oyo, fally ipupa mp3">
     <?= $this->Html->meta('favicon.png','/img/favicon.png',['type'=>'icon']) ?>  
-
+    <meta name="google-site-verification" content="JnVM7iDJDbHpBYWOZAmoTjWRkMqW2hUtAmRByTBPBWc" />
+    
       <?= $this->fetch('meta') ?>
       <!-- Third Party dependencies -->
       <?= $this->Html->css('../bower_components/materialize/dist/css/materialize') ?>
