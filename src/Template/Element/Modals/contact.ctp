@@ -40,8 +40,3 @@
 		</div>
     </div>
 </div>
-
-
-<script>
-	$('#contact-pic').addClass('magictime vanishIn');
-</script>

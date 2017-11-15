@@ -3,7 +3,7 @@
 <head>  
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fally Ipupa World - Site Web Officiel</title>
+    <title>Fally Ipupa World: Fan's Page Officielle</title>
     <meta name="description" content="Tout savoir sur Fally Ipupa - Biographie - Images - Musique - Event - Tournées - Fondation - être alerté en temps réels des dernières actualités sur Fally Ipupa - Le roi de la Tokooos Music" />  
     <meta name="keywords" content="Fally Ipupa, music, tokos music, artist, singer, chanteur, chanson, musique, congo, kinshasa, koffi olomidé, papa wemba, tour, hustler, dicaprio, la merveille, eloko oyo, fally ipupa eloko oyo, fally ipupa mp3">
     <?= $this->Html->meta('favicon.png','/img/favicon.png',['type'=>'icon']) ?>  
@@ -23,7 +23,7 @@
       <?= $this->Html->css('../js/Justified-Gallery-master/dist/css/justifiedGallery.min') ?>
       <?= $this->Html->css('../js/strip-1.6.4/dist/css/strip') ?>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cssgram/0.1.10/cssgram.min.css">
-
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
     <?= $this->fetch('css') ?>
       <!-- Scripts -->
       <?= $this->Html->script('jquery.min') ?>

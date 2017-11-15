@@ -25,13 +25,13 @@
               </a>
             </li>
         </ul>
-        
+
         <ul id="nav-mobile" class="center hide-on-med-and-down brand-logo main-menu top-menu-wrapper-items">
-              <li class="mg-chub mg-size-17 mg-padding-left-0 bold">
+              <li class="mg-chub mg-size-17 mg-padding-left-0 bold button_modal_trigger" trigger-id="#album">
                  <a rel="nofollow" ng-click="mainctrl.show_music_modal()" class="mg-chub mg-size-17 mg-padding-left-0 bold"><span class="new badge mg_prim_background"></span> Musique</a>
               </li> 
                 <i class="ion-record white-text ion-record white-text mg-size-5"></i>
-              <li ng-click="mainctrl.show_tour_modal()">
+              <li ng-click="mainctrl.show_tour_modal()" class="button_modal_trigger" trigger-id="#tour-pic">
                 <a rel="nofollow" class="mg-chub mg-size-17 mg-padding-left-0 bold">Event</a>
               </li>
                 <i class="ion-record white-text ion-record white-text mg-size-5"></i>
@@ -39,11 +39,11 @@
                 <a rel="nofollow" ng-click="mainctrl.show_newsletter_modal()" class="mg-chub mg-size-17 mg-padding-left-0 bold">Newsletter</a>
               </li> 
                <i class="ion-record white-text ion-record white-text mg-size-5"></i>
-              <li>
+              <li class="button_modal_trigger" trigger-id="#foundation-pic">
                 <a rel="nofollow" ng-click="mainctrl.show_foundation_modal()" class="mg-chub mg-size-17 mg-padding-left-0 bold">Fondation</a>
               </li>
                 <i class="ion-record white-text ion-record white-text mg-size-5"></i>
-              <li>
+              <li class="button_modal_trigger" trigger-id="#contact-pic">
                 <a rel="nofollow" ng-click="mainctrl.show_contact_modal()" class="mg-chub mg-size-17 mg-padding-left-0 bold">Contact</a>
               </li> 
         </ul>
@@ -88,11 +88,11 @@
             </a>
           </li>
 
-          <li ng-click="mainctrl.show_music_modal()" class="mg_sec_background_3 mg-margin-top-70" style="border-top: 3px solid #ff00ff">
+          <li ng-click="mainctrl.show_music_modal()" class="mg_sec_background_3 mg-margin-top-70 button_modal_trigger" trigger-id="#album" style="border-top: 3px solid #ff00ff">
             <a rel="nofollow" class="mg-chub mg-size-17 mg-padding-left-65 white-text"><span class="new badge mg_prim_background"></span> Musique</a>
           </li>
 
-          <li class="mg_sec_background_3" ng-click="mainctrl.show_tour_modal()" style="border-top: 3px solid #ff00ff">
+          <li class="mg_sec_background_3 button_modal_trigger"  trigger-id="#tour-pic" ng-click="mainctrl.show_tour_modal()" style="border-top: 3px solid #ff00ff">
             <a rel="nofollow"  class="mg-chub mg-size-17 mg-padding-left-65 white-text">Event</a>
           </li>
 
@@ -100,9 +100,9 @@
             <a rel="nofollow"  class="mg-chub mg-size-17 mg-padding-left-65 white-text">Newsletter</a>
           </li> 
 
-          <li ng-click="mainctrl.show_foundation_modal()" class="mg_sec_background_3" style="border-top: 3px solid #ff00ff"><a rel="nofollow" class="mg-chub mg-size-17 mg-padding-left-65 white-text">Fondation</a></li>
+          <li ng-click="mainctrl.show_foundation_modal() button_modal_trigger" trigger-id="#foundation-pic" class="mg_sec_background_3" style="border-top: 3px solid #ff00ff"><a rel="nofollow" class="mg-chub mg-size-17 mg-padding-left-65 white-text">Fondation</a></li>
 
-          <li ng-click="mainctrl.show_contact_modal()" class="mg_sec_background_3" style="border-top: 3px solid #ff00ff">
+          <li ng-click="mainctrl.show_contact_modal() button_modal_trigger" trigger-id="#contact-pic" class="mg_sec_background_3" style="border-top: 3px solid #ff00ff">
             <a rel="nofollow" class="mg-chub mg-size-17 mg-padding-left-65 white-text">Contact</a>
           </li> 
 
@@ -177,7 +177,15 @@
                $('.main-menu').fadeIn('fast');
            }
         });
+
         $('.mid-logo-scrolling').addClass('magictime vanishIn');
+
+
+        $('.button_modal_trigger').bind('click', function(){
+            var $trigger = $(this).attr('trigger-id');
+            console.log($trigger);
+            $($trigger).addClass('magictime vanishIn');
+        });
       });
     </script>
 

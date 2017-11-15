@@ -14,7 +14,7 @@
 					<article>
 						<h1 class="uppercase mg_sec_color_4 mg-padding-top-15 bold mg-chub mg-size-22 mg-margin-bottom-10">Musique</h1>
 						<div class="divider"></div>
-						<p class="bold center mg-padding-left-20 mg-padding-right-20">
+						<p class="center mg-padding-left-20 mg-padding-right-20">
 							Entre deux solos de guitare, barré de ses légendaires paires de lunettes noires, l'héritier de <strong class="mg-weight-600"> Papa Wemba </strong>, Fally Ipupa, présente Tokooos, son nouvel album, tournant dans sa carrière musicale avec de nombreuses collaborations fort <strong class="mg-weight-600">Wizkid</strong> aux titans comme Booba, Fally Ipupa atteint son paroxysme avec un tout nouveau style: la <strong class="mg-weight-600">Tokooos Music</strong> dont-il en est le roi incontesté.					
 							<a href="https://fallyipupa.lnk.to/tokooosWW" target="blank" class="mg-width-100-perc btn mg_prim_background mg-chub mg-margin-top-20">
 								<i class="ion-headphone"></i> Ecouter <strong class="mg-weight-600">Tokooos</strong>
@@ -26,7 +26,3 @@
 		</div>
     </div>
 </div>
-
-<script>
-	$('#album').addClass('magictime vanishIn');
-</script>

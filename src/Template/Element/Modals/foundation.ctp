@@ -29,9 +29,9 @@
 						<h1 class="uppercase red-text mg-padding-top-15 bold mg-chub mg-size-22 mg-margin-bottom-10">La Fondation</h1>
 						<div class="divider"></div>
 						<p class="center mg_sec_color_3 left-align mg-padding-top-0 mg-padding-left-20 mg-padding-right-20">
-							<strong>Fally Ipupa Foundation</strong> (FIF) vise à aider les différents segments de la population vivant dans le besoin. FIF a déjà mené sa toute première action. Par exemple, elle a réhabilité les bâtiments de l'école <strong>St Jean-Baptiste</strong> , où l'artiste a fait une partie de ses études et lui a donné 100 bancs et bureaux.
+							<strong class="mg-weight-600">Fally Ipupa Foundation</strong> (FIF) vise à aider les différents segments de la population vivant dans le besoin. FIF a déjà mené sa toute première action. Par exemple, elle a réhabilité les bâtiments de l'école <strong class="mg-weight-600">St Jean-Baptiste</strong> , où l'artiste a fait une partie de ses études et lui a donné 100 bancs et bureaux.
 							Les fonds de FIF seront collectés pendant les concerts et autres événements socioculturels prévus.
-							<a href="https://fr-fr.facebook.com/fallyipupafoundation" target="_blank" class="mg-margin-top-10 mg-margin-bottom-10 mg-chub mg-size-18 btn visit-fally-btn bold mg-width-100-perc">Fally Ipupa Fondation</a>
+							<a href="https://fr-fr.facebook.com/fallyipupafoundation" target="_blank" class="mg-margin-top-10 mg-margin-bottom-10 mg-chub mg-size-18 btn visit-fally-btn bold mg-width-100-perc">Page officielle</a>
 						</p>
 				  	</article>
 				  </section>
@@ -39,8 +39,3 @@
 		</div>
     </div>
 </div>
-
-
-<script>
-	$('#foundation-pic').addClass('magictime vanishIn');
-</script>
